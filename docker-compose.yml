@@ -1,6 +1,6 @@
 services:
   phone-gallery:
-    image: ghcr.io/r9r-dev/phone-gallery:latest
+    image: ghcr.io/ronalove/phone-gallery:latest
     container_name: phone-gallery-app
     build:
       context: .

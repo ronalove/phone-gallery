@@ -41,7 +41,7 @@ A modern, glassmorphism-styled web application to track and showcase your person
 
 ```bash
 # Clone the repository
-git clone https://github.com/r9r-dev/phone-gallery.git
+git clone https://github.com/ronalove/phone-gallery.git
 cd phone-gallery
 
 # Navigate to source directory
@@ -63,7 +63,7 @@ Create a `docker-compose.yml` file:
 ```yaml
 services:
   phone-gallery:
-    image: ghcr.io/r9r-dev/phone-gallery:latest
+    image: ghcr.io/ronalove/phone-gallery:latest
     container_name: phone-gallery-app
     ports:
       - "3000:3000"
@@ -222,7 +222,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Ronan Lamour**
 
-- GitHub: [@r9r-dev](https://github.com/r9r-dev)
+- GitHub: [@ronalove](https://github.com/ronalove)
 
 ## 🤝 Contributing
 
